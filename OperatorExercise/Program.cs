@@ -19,11 +19,10 @@ namespace OperatorExercise
             int remainder = 17 % 4;
 
             Console.WriteLine(sum);  //13
-            Console.WriteLine(difference); // 2.7
-            Console.WriteLine(ans); // ans 24.86
+            Console.WriteLine(difference); // 2
+            Console.WriteLine(ans); // ans 22
+            //String comprehension
             Console.WriteLine($"{a}/{b} is {roundedAns} remainder {remainder}");
-
-
         }
     }
 }
